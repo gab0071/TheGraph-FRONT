@@ -1,0 +1,10 @@
+{
+  "name": "tg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "graph init --contract-name RandomWinnerGame --product hosted-service gab0071/ltt  --from-contract 0xb877aC7A087abE5014A5164f7e0217b6819241FF  --abi ./abi.json --network mumbai graph",
+    "deploy": "graph auth"
+  }
+}
